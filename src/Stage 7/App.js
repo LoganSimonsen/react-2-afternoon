@@ -8,7 +8,14 @@ import EmployeeEditor from './components/EmployeeEditor';
 
 class App extends Component {
   // constructor
-
+  constructor() {
+    super();
+    this.state = {
+      employee: null,
+      originalEmployee: null,
+      notModified: true
+    };
+  }
   // selectEmployee
 
   // refresh

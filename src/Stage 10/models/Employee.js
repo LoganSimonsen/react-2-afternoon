@@ -9,11 +9,11 @@ export default class Employee {
   updateName(name) {
     this.name = name;
   }
-  
+
   updatePhone(phone) {
     this.phone = phone;
   }
-  
+
   updateTitle(title) {
     this.title = title;
   }
